@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen">
+
+</head>
+<body>
+    
+    <script src="index.js"></script>
+    <div class="menu">
+         <div class="txtbutn">
+            <h1 id="lefText">Sign up</h1>
+            <button id="sigup-id" class="sigup" onclick="signup()">Sign up</button>
+            <button id="sigin-id" class="sigin" onclick="signin()">Sign in</button>
+          </div>
+          <div id="log-id" class="main_div">
+              <h1>Login</h1>
+              <input type="email" placeholder="Email" id="LoginEmail">
+              <input type="password" placeholder="Password" id="LoginPass">
+              <button onclick="login()">Sign in</button>
+          </div>
+          <div id="regis-id" class="regis">
+              <h1>Create Account</h1>
+              <input type="username" placeholder="Username">
+              <input type="email" placeholder="Email" id="RegistEmail">
+              <input type="password" placeholder="Password" id="RegistPass">
+              <button onclick="regist()">Sign up</button>
+          </div>
+          <button onclick="logout()">Logout</button>
+  </div>
+    <div id="user-id" class="back_div">
+        <h1>Hello User</h1>
+        <p id="usertxt">Welcome to firebase Account</p>
+        <button id="logout()">Logout</button>
+    </div>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyDR4ZMPJcmh4ipQ3wfhFhPiKCVOGEGkkGc",
+          authDomain: "ios-team-010101.firebaseapp.com",
+          databaseURL: "https://ios-team-010101.firebaseio.com",
+          projectId: "ios-team-010101",
+          storageBucket: "ios-team-010101.appspot.com",
+          messagingSenderId: "780294270185"
+        };
+        firebase.initializeApp(config);
+      </script>
+</body>
+</html>

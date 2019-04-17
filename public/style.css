@@ -1,0 +1,113 @@
+body,html{
+    background-image: url(Group1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input, button{
+    font-weight: 700;
+}
+.txtbutn{
+    color: #fff;
+    list-style:none;
+    padding:0;
+    margin:0 0 40px 0;
+    float: left;
+    margin-left: 5%;
+    margin-top: 15%;
+    height: 200px;
+    width: 400px;
+    padding: 20px;
+    font-size: 30px;
+}
+.sigin{
+    background: #89bcd7;
+}
+.sigup{
+    background: #303958;
+}
+.txtbutn button{
+    float: left;
+    color: #fff;
+    border: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #303958;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;   
+    transition: 0.3s;
+}
+.regis{
+    float: right;
+    margin-right: 15%;
+    width: 320px;
+    padding: 30px;
+    margin-top: 5%;
+    
+}
+.regis h1{
+    text-align: center;
+}
+.regis input{
+    display: block;
+    border: none;
+    font-size: 20px;
+    border-bottom: 0.5px solid black;
+    width: 120%;
+    margin-bottom: 20px;
+    margin-top: 10%;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+}
+.regis button{
+    background: #5dBffc;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 130%;
+    transition: 0.3s;
+}
+.main_div h1{
+    text-align: center;
+}
+.main_div{
+    display: none;
+    float: right;
+    margin-right: 15%;
+    width: 320px;
+    padding: 30px;
+    margin-top: 5%;
+}
+.main_div input{
+    display: block;
+    border: none;
+    font-size: 20px;
+    border-bottom: 0.5px solid black;
+    width: 120%;
+    margin-bottom: 20px;
+    margin-top: 25%;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+}
+.main_div button{
+    background: #5dBffc;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 130%;
+    transition: 0.3s;
+}
+.back_div {
+    display: none;
+}
